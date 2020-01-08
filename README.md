@@ -1,7 +1,7 @@
 # OOS
 运维部署
 
-+ [单节点]
++ [单机]
 + [分布式]
 
 ## 基础系统配置
@@ -32,3 +32,4 @@ pip install ansible
 ssh-keygen -t rsa -b 2048 回车 回车 回车
 ssh-copy-id $IP #$IP为本机地址，按照提示输入yes 和root密码
 ```
+
